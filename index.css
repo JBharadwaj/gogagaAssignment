@@ -1,0 +1,263 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    color:black;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.packages,
+.flight-booking,
+.hotel-booking,
+.package-collections {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+
+
+.flight-booking form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.flight-booking label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.flight-booking input[type="text"],
+.flight-booking input[type="date"],
+.flight-booking button {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.flight-booking button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.flight-booking button:hover {
+    background-color: #0056b3;
+}
+
+.holiday-packages {
+    height:100vh;
+    width:100vw;
+}
+.packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.package {
+    width: 30vw;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.package img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.package h3 {
+    margin-top: 0;
+}
+
+.package p {
+    margin: 5px 0;
+}
+
+.package button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.package button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.location-list {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+.hotel-booking {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    width:100vw;
+}
+
+
+
+.hotel-booking label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.hotel-booking input[type="date"] {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.hotel-booking button {
+    background-color: #007bff;
+    width:25%;
+    margin:5px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hotel-booking button:hover {
+    background-color: #0056b3;
+}
+
+
+.location-dropdown {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+
+
+
+
+
+
+
+.package-collections {
+    height:100vh;
+    width:100vw;
+    margin: 0 auto;
+    overflow:hidden;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.package-collection {
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width:30vw;
+    height:40vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.package-collection h3 {
+    margin-top: 0;
+}
+
+.package-collection p {
+    margin-bottom: 10px;
+}
+
+.package-collection img {
+    width:100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.package-collection button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.package-collection button:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (min-width: 767px) {
+    .package-collection{
+        height:60vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}

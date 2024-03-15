@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gogaga Holidays</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Gogaga Holidays</div>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#holiday-packages">Holiday Packages</a></li>
+                <li><a href="#flights">Flight Booking</a></li>
+                <li><a href="#hotels">Hotel Booking</a></li>
+                <li><a href="#collections">Package Collections</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero" id="Home">
+        <h1>Welcome to Gogaga Holidays</h1>
+        <p>Your ultimate destination for dream vacations</p>
+    </section>
+
+    <section id="holiday-packages">
+        <h2>Holiday Packages</h2>
+        <div class="packages">
+            <div class="package">
+                <img src="https://i.postimg.cc/7Y0DYVNp/image1.jpg" alt="Package 1">
+                <h3>India Holiday Package</h3>
+                <p>
+                    <ul>
+                        <li>Taj Mahal</li>
+                        <li>Red fort</li>
+                    </ul>
+                </p>
+                <p>Price: &#8377;5000</p>
+                <button>Book Now</button>
+            </div>
+            <div class="package">
+                <img src="https://i.postimg.cc/HLHP40X8/japan.jpg" alt="Package 2">
+                <h3>Japan Holiday Package</h3>
+                <p>
+                    <ul>
+                        <li>Kinkaku-ji</li>
+                        <li>Fushimi Inari Taisha</li>
+                    </ul>
+                </p>
+                <p>Price: &#8377;2,00,000</p>
+                <button>Book Now</button>
+            </div>
+            <div class="package">
+                <img src="https://i.postimg.cc/FH0jZ2VD/canada.jpg" alt="Package 3">
+                <h3>Canada Holiday Package</h3>
+                <p>
+                    <ul>
+                        <li>CN Tower</li>
+                        <li>Niagara falls</li>
+                    </ul>
+                </p>
+                <p>Price: &#8377;5,00,000</p>
+                <button>Book Now</button>
+            </div>
+            <div class="package">
+                <img src="https://i.postimg.cc/6QkVftDj/newyork.jpg" alt="Package 4">
+                <h3>New york Holiday Package</h3>
+                <p>
+                    <ul>
+                        <li>Central park</li>
+                        <li>Statue of Liberty</li>
+                    </ul>
+                </p>
+                <p>Price: &#8377;6,00,000</p>
+                <button>Book Now</button>
+            </div>
+            <div class="package">
+                <img src="https://i.postimg.cc/DyYdCrGY/image5.jpg" alt="Package 5">
+                <h3>Lakshadweep Holiday Package</h3>
+                <p>
+                    <ul>
+                        <li>Bangaram Atoll</li>
+                        <li>Agatti Island</li>
+                    </ul>
+                </p>
+                <p>Price: &#8377;50,000</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+        
+    </section>
+    
+
+    <section class="flight-booking" id="flights">
+        <h2>Flight Booking</h2>
+        <form action="#" method="GET">
+            <label for="departure">Departure:</label>
+            <input type="text" id="departure" name="departure" placeholder="Enter departure city" required>
+            
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" placeholder="Enter destination city" required>
+            
+            <label for="departure-date">Departure Date:</label>
+            <input type="date" id="departure-date" name="departure-date" required>
+            
+            <label for="return-date">Return Date:</label>
+            <input type="date" id="return-date" name="return-date" required>
+            
+            <button type="submit">Search Flights</button>
+        </form>
+    </section>
+    
+
+
+    
+    <section id="hotels">
+        <h2>Hotel Booking</h2>
+        <div class="hotel-booking">
+            <div class="location-dropdown">
+                <h1>Select your Location</h1>
+                <div class="location-list">
+                    <button class="location-button">India</button>
+                    <button class="location-button">New York</button>
+                    <button class="location-button">Canada</button>
+                    <button class="location-button">Japan</button>
+                    <button class="location-button">Lakshadweep</button>
+                </div>
+            </div>
+            <label for="check-in-date">Check-in Date:</label>
+            <input type="date" id="check-in-date" name="check-in-date" required>
+            
+            <label for="check-out-date">Check-out Date:</label>
+            <input type="date" id="check-out-date" name="check-out-date" required>
+            
+            <button type="submit">Search Hotels</button>
+            
+            <div class="hotels">
+                <h3>Hotels in <span class="selected-location">Selected Location</span>:</h3>
+                <ul>
+                    <li>Hotel 1</li>
+                    <li>Hotel 2</li>
+                    <li>Hotel 3</li>
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+    
+
+    <section id="collections">
+        <h2>Package Collections</h2>
+        <div class="package-collections">
+            <div class="package-collection">
+                <h3>Adventure Escapes</h3>
+                <p>Explore the great outdoors with our adrenaline-packed adventure packages.</p>
+                <img src="https://i.postimg.cc/SKBkBBm5/adventure.jpg" alt="Adventure Escapes">
+                <button>View Packages</button>
+            </div>
+            
+            <div class="package-collection">
+                <h3>Beach Getaways</h3>
+                <p>Relax and unwind on pristine beaches with our luxurious beach getaway packages.</p>
+                <img src="https://i.postimg.cc/8CP6FrWD/beach.jpg" alt="Beach Getaways">
+                <button>View Packages</button>
+            </div>
+            
+            <div class="package-collection">
+                <h3>Cultural Experiences</h3>
+                <p>Immerse yourself in rich cultures and traditions with our cultural experience packages.</p>
+                <img src="https://i.postimg.cc/HsVXzMPL/cultural.jpg" alt="Cultural Experiences">
+                <button>View Packages</button>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gogaga Holidays. All rights reserved.</p>
+    </footer>
+</body>
+</html>
